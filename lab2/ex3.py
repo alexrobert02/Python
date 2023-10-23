@@ -3,10 +3,24 @@
 
 
 def list_operations(a, b):
-    intersection = list(set(a) & set(b))
-    union = list(set(a) | set(b))
-    a_minus_b = list(set(a) - set(b))
-    b_minus_a = list(set(b) - set(a))
+    intersection = []
+    union = []
+    a_minus_b = []
+    b_minus_a = []
+
+    for item in a:
+        if item in b:
+            intersection.append(item)
+        union.append(item)
+
+    for item in b:
+        if item not in a:
+            union.append(item)
+            b_minus_a.append(item)
+
+    for item in a:
+        if item not in b:
+            a_minus_b.append(item)
 
     return intersection, union, a_minus_b, b_minus_a
 
