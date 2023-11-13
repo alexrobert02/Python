@@ -8,8 +8,11 @@ def count_unique_and_duplicates(input_list):
     duplicate_set = set()
 
     for item in input_list:
-        if item in unique_set:
+        if item in duplicate_set:
+            continue
+        elif item in unique_set:
             duplicate_set.add(item)
+            unique_set.remove(item)
         else:
             unique_set.add(item)
 
