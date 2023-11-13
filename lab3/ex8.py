@@ -11,7 +11,7 @@ def loop(mapping):
     result = []
     current_key = mapping.get("start")
 
-    while current_key is not None and current_key not in visited:
+    while current_key and current_key not in visited:
         visited.add(current_key)
         result.append(current_key)
         current_key = mapping.get(current_key)
