@@ -1,7 +1,3 @@
-#   Write a function that receives as parameters two lists a and b and returns a list of sets containing: (a
-# intersected with b, a reunited with b, a - b, b - a)
-
-
 def list_operations(a, b):
     intersection = list(set(a) & set(b))
     union = list(set(a) | set(b))

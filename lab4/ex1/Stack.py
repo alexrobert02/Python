@@ -1,23 +1,19 @@
-#   Write a Python class that simulates a Queue. The class should implement methods like push, pop, peek (the last two
-# methods should return None if no element is present in the queue).
-
-
-class Queue:
+class Stack:
     def __init__(self):
-        self.items= []
+        self.items = []
 
     def push(self, item):
         self.items.append(item)
 
     def pop(self):
         if not self.is_empty():
-            return self.items.pop(0)
+            return self.items.pop()
         else:
             return None
 
     def peek(self):
         if not self.is_empty():
-            return self.items[0]
+            return self.items[-1]
         else:
             return None
 

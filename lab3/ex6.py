@@ -1,8 +1,3 @@
-#   Write a function that receives as a parameter a list and returns a tuple (a, b), representing the number of unique
-# elements in the list, and b representing the number of duplicate elements in the list (use sets to achieve this
-# objective).
-
-
 def count_unique_and_duplicates(input_list):
     unique_set = set()
     duplicate_set = set()

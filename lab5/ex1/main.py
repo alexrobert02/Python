@@ -1,7 +1,3 @@
-#   Create a class hierarchy for shapes, starting with a base class Shape. Then, create subclasses like Circle,
-# Rectangle, and Triangle. Implement methods to calculate area and perimeter for each shape.
-
-
 from Circle import Circle
 from Rectangle import Rectangle
 from Triangle import Triangle

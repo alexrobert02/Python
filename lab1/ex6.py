@@ -1,6 +1,3 @@
-# Write a function that validates if a number is a palindrome.
-
-
 def is_palindrome(number):
     temp = number
     reverse_number = 0

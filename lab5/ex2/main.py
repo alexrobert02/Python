@@ -1,7 +1,3 @@
-#   Design a bank account system with a base class Account and subclasses SavingsAccount and CheckingAccount. Implement
-# methods for deposit, withdrawal, and interest calculation.
-
-
 from SavingsAccount import SavingsAccount
 from CheckingAccount import CheckingAccount
 

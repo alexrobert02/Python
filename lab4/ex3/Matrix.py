@@ -1,9 +1,3 @@
-#   Write a Python class that simulates a matrix of size NxM, with N and M provided at initialization. The class should
-# provide methods to access elements (get and set methods) and some mathematical functions such as transpose,
-# matrix multiplication and a method that allows iterating through all elements form a matrix an apply a
-# transformation over them (via a lambda function).
-
-
 class Matrix:
     def __init__(self, n, m):
         self.n = n

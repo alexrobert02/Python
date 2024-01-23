@@ -1,7 +1,3 @@
-#   Create a class hierarchy for animals, starting with a base class Animal. Then, create subclasses like Mammal, Bird,
-# and Fish. Add properties and methods to represent characteristics unique to each animal group.
-
-
 from Mammal import Mammal
 from Bird import Bird
 from Fish import Fish

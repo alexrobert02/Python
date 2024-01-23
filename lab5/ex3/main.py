@@ -1,8 +1,3 @@
-#   Create a base class Vehicle with attributes like make, model, and year, and then create subclasses for specific
-# types of vehicles like Car, Motorcycle, and Truck. Add methods to calculate mileage or towing capacity based on the
-# vehicle type.
-
-
 from Car import Car
 from Motorcycle import Motorcycle
 from Truck import Truck
