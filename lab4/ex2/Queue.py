@@ -1,8 +1,4 @@
-#   Write a Python class that simulates a Stack. The class should implement methods like push, pop, peek (the last two
-# methods should return None if no element is present in the stack).
-
-
-class Stack:
+class Queue:
     def __init__(self):
         self.items = []
 
@@ -11,13 +7,13 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            return self.items.pop()
+            return self.items.pop(0)
         else:
             return None
 
     def peek(self):
         if not self.is_empty():
-            return self.items[-1]
+            return self.items[0]
         else:
             return None
 

@@ -1,6 +1,3 @@
-# Write a function that receives a list of numbers and returns a list of the prime numbers found in it.
-
-
 def is_prime(n):
     if n == 1:
         return False

@@ -1,6 +1,3 @@
-# Find The greatest common divisor of multiple numbers read from the console.
-
-
 def find_gcd(a, b):
     if a == 0:
         return b

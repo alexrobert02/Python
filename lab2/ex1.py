@@ -1,6 +1,3 @@
-# Write a function to return a list of the first n numbers in the Fibonacci string.
-
-
 def fibonacci(n):
     fibonacci_list = []
     a, b = 0, 1
@@ -17,4 +14,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

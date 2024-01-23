@@ -1,7 +1,3 @@
-#   Compare two dictionaries without using the operator "==" returning True or False. (Attention, dictionaries must be
-# recursively covered because they can contain other containers, such as dictionaries, lists, sets, etc.)
-
-
 def dict_compare(dict1, dict2):
     if type(dict1) is not dict or type(dict2) is not dict:
         return dict1 == dict2

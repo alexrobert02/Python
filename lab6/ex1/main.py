@@ -11,8 +11,8 @@ def read_and_print_files(directory, extension):
             raise ValueError("File extension should start with a dot (e.g., '.txt').")
 
         for filename in os.listdir(directory):
-            _, extension = os.path.splitext(filename)
-            if extension == ".txt":
+            _, ext = os.path.splitext(filename)
+            if ext == extension:
                 file_path = os.path.join(directory, filename)
 
                 try:

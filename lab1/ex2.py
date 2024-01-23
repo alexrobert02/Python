@@ -1,6 +1,3 @@
-# Write a script that calculates how many vowels are in a string.
-
-
 def count_vowels(string):
     vowels = "AEIOUaeiou"
     count = 0

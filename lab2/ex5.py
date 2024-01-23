@@ -1,7 +1,3 @@
-#   Write a function that receives as parameter a matrix and will return the matrix obtained by replacing all the
-# elements under the main diagonal with 0 (zero).
-
-
 def replace_0(matrix):
     num_rows = len(matrix)
     num_cols = len(matrix[0])
