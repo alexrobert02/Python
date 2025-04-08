@@ -1,3 +1,2 @@
 # Python-Homework
-
-## Zaharia Robert-Alexandru
+Python. Year 3. Semester 1.
